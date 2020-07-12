@@ -208,6 +208,7 @@
                             this.member.first_name = ''
                             this.member.last_name = ''
                             this.member.email = ''
+                            this.edit = false
                             this.getMembers()
                             alert('Member Updated Successful!')
                         })

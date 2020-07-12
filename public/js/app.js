@@ -2133,6 +2133,7 @@ __webpack_require__.r(__webpack_exports__);
           _this3.member.first_name = '';
           _this3.member.last_name = '';
           _this3.member.email = '';
+          _this3.edit = false;
 
           _this3.getMembers();
 
