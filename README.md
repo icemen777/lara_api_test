@@ -1,5 +1,6 @@
 API приложение для добавления участинков мероприятий.
 Frontend работает на VUE.
+Работающая версия приложение - http://mentor.beget.tech/
 
 Доступ нарямую закрыт, разрешены только AJAX запросы.
 Для этого в Kernel.php добавлена строка - 'ajax' => \App\Http\Middleware\AllowOnlyAjaxRequests::class
