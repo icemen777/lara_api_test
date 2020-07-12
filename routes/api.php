@@ -18,6 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('members', 'Api\MemberController');
+Route::apiResource('members', 'API\MemberController');
 
-Route::get('event_members/{id}', ['uses'=>'Api\MemberController@eventMembers', 'as'=>'eventMembers' ]);
+Route::get('event_members/{id}', ['uses'=>'API\MemberController@eventMembers', 'as'=>'eventMembers' ]);
